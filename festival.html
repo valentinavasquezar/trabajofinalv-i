@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>El festival · Festival Aurora</title>
+  <meta name="description" content="Una noche que termina en amanecer: cuatro días en el desierto de Gobi.">
+  <!-- Fuentes: Cinzel = logo AURORA (cámbiala aquí y en --font-logo del CSS). Cormorant Garamond = títulos. Inter = texto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Opcional: fuente propia del logo
+  <style>@font-face{font-family:'AuroraLogo';src:url('assets/fonts/aurora-logo.woff2') format('woff2');font-display:swap} :root{--font-logo:'AuroraLogo',Georgia,serif}</style> -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html" aria-label="Aurora, inicio">AURORA</a>
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Principal"><a href="index.html">Inicio</a><a href="festival.html" aria-current="page">El festival</a><a href="lineup.html">Line-up</a><a href="programa.html">Programa</a><a href="entradas.html">Entradas</a><a href="galeria.html">Galería</a><a href="contacto.html">Contacto</a></nav>
+  </header>
+  <main>
+    <section class="section t-rust">
+      <div class="wrap">
+        <h2>Una noche que termina<br>en amanecer</h2>
+        <p class="lead-text">Cada día del festival recorre un momento de la noche: atardecer, noche, madrugada y amanecer. El desierto pone el cielo oscuro, el silencio y la luz de las dunas.</p>
+        <div class="stats">
+          <div><strong>4</strong><span>días</span><small>de jueves a domingo</small></div>
+          <div><strong>5</strong><span>sedes</span><small>en el desierto</small></div>
+          <div><strong>6.000</strong><span>asistentes</span><small>aforo</small></div>
+          <div><strong>3</strong><span>ejes</span><small>música, cine y arte</small></div>
+        </div>
+        <p class="quote">Un solo recinto en el desierto, sin ciudad cerca: el festival se vive como un campamento donde todo, del alojamiento a los conciertos, está a pocos minutos.</p>
+      </div>
+    </section>
+    <section class="section t-cream" id="como-llegar" style="padding-bottom:0">
+      <div class="wrap">
+        <h2>Cómo llegar y quedarse</h2>
+        <div class="steps">
+          <div><span>1 · VOLAR</span><p>Vuelo internacional a Ulán Bator.</p></div>
+          <div><span>2 · LLEGAR AL SUR</span><p>Vuelo o traslado a Dalanzadgad, unos 550 km.</p></div>
+          <div><span>3 · DORMIR</span><p>Gers (yurtas), glamping y hoteles aliados.</p></div>
+          <div><span>4 · VISADO</span><p>Muchos países tienen exención turística; consulta los requisitos. <!-- TODO: enlace oficial --></p></div>
+        </div>
+      </div>
+    </section>
+    <!-- Imagen de la yurta: style="--yurt-img:url('assets/img/yurta.jpg')" -->
+    <div class="yurt" role="img" aria-label="Yurta en el desierto"></div>
+  </main>
+  <footer class="site-footer">
+      <div class="wrap top">
+        <span class="logo">AURORA</span>
+        <span>26 – 29 de agosto de 2027 · Desierto de Gobi, Mongolia</span>
+        <nav aria-label="Pie de página">
+          <a href="#">Términos y condiciones</a> <!-- TODO -->
+          <a href="#">Política de privacidad</a> <!-- TODO -->
+          <a href="contacto.html">Contacto</a>
+          <a href="festival.html#como-llegar">Cómo llegar</a>
+        </nav>
+      </div>
+      <div class="wrap" style="margin-top:1rem"><span>Desarrollado por Isabella Higuita Álvarez y Valentina Vásquez García</span></div> <!-- TODO: marca responsable -->
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

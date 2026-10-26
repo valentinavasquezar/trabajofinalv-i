@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Entradas · Festival Aurora</title>
+<meta name="description" content="Pase de día, pase general y paquete viaje. Descuentos early bird, estudiantes y grupos.">
+<!-- Fuentes: Cinzel = logo AURORA (cámbiala aquí y en --font-logo del CSS). Cormorant Garamond = títulos. Inter = texto -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<!-- Opcional: fuente propia del logo
+<style>@font-face{font-family:'AuroraLogo';src:url('assets/fonts/aurora-logo.woff2') format('woff2');font-display:swap} :root{--font-logo:'AuroraLogo',Georgia,serif}</style> -->
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="index.html" aria-label="Aurora, inicio">AURORA</a>
+  <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+  <nav class="nav" aria-label="Principal"><a href="index.html">Inicio</a><a href="festival.html">El festival</a><a href="lineup.html">Line-up</a><a href="programa.html">Programa</a><a href="entradas.html" aria-current="page">Entradas</a><a href="galeria.html">Galería</a><a href="contacto.html">Contacto</a></nav>
+</header>
+<main>
+<section class="t-rust band-head"><div class="wrap"><h2>Sedes y entradas</h2></div></section>
+<section class="t-cream">
+  <div class="wrap">
+    <div class="passes">
+      <div class="pass"><h3>Pase de día</h3><div class="price">USD 120</div><p>Acceso a todas las sedes durante un día.</p><a class="btn dark" href="#">Comprar</a><!-- TODO: enlace de venta --></div>
+      <div class="pass"><h3>Pase general</h3><div class="price">USD 380</div><p>Los 4 días. Early bird con descuento; también para estudiantes y grupos.</p><a class="btn dark" href="#">Comprar</a><!-- TODO --></div>
+      <div class="pass"><h3>Paquete viaje</h3><div class="price">USD 1.290</div><p>Pase, alojamiento en campamento y traslados desde Dalanzadgad. <a href="festival.html#como-llegar" style="text-decoration:underline">Cómo llegar</a></p><a class="btn dark" href="#">Comprar</a><!-- TODO --></div>
+    </div>
+    <div class="sedes">
+      <h4>Sedes</h4>
+      <p>Escenario Alba, La Cúpula, Cine Umbral, Galería Cauce y Plaza Aurora.</p>
+      <p>Pago en USD, EUR y MNT.</p>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap top">
+    <span class="logo">AURORA</span>
+    <span>26 – 29 de agosto de 2027 · Desierto de Gobi, Mongolia</span>
+    <nav aria-label="Pie de página">
+      <a href="#">Términos y condiciones</a> <!-- TODO -->
+      <a href="#">Política de privacidad</a> <!-- TODO -->
+      <a href="contacto.html">Contacto</a>
+      <a href="festival.html#como-llegar">Cómo llegar</a>
+    </nav>
+  </div>
+  <div class="wrap" style="margin-top:1rem"><span>Desarrollado por Isabella Higuita Álvarez y Valentina Vásquez García</span></div> 
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

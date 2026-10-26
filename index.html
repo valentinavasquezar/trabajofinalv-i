@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inicio · Festival Aurora</title>
+<meta name="description" content="Música, cine y arte desde el atardecer hasta el amanecer en el desierto de Gobi.">
+<!-- Fuentes: Cinzel = logo AURORA (cámbiala aquí y en --font-logo del CSS). Cormorant Garamond = títulos. Inter = texto -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<!-- Opcional: fuente propia del logo
+<style>@font-face{font-family:'AuroraLogo';src:url('assets/fonts/aurora-logo.woff2') format('woff2');font-display:swap} :root{--font-logo:'AuroraLogo',Georgia,serif}</style> -->
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="index.html" aria-label="Aurora, inicio">AURORA</a>
+  <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+  <nav class="nav" aria-label="Principal"><a href="index.html" aria-current="page">Inicio</a><a href="festival.html">El festival</a><a href="lineup.html">Line-up</a><a href="programa.html">Programa</a><a href="entradas.html">Entradas</a><a href="galeria.html">Galería</a><a href="contacto.html">Contacto</a></nav>
+</header>
+<main>
+<!-- Imagen de fondo opcional: style="--hero-img:url('assets/img/hero.jpg')" -->
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow">26 – 29 de agosto de 2027</span>
+    <span class="eyebrow">Desierto de Gobi, Mongolia</span>
+    <h1>Festival Aurora</h1>
+    <p class="lead">Música, cine y arte desde el atardecer hasta el amanecer, entre las dunas de Khongoryn Els.</p>
+    <a class="btn" href="entradas.html">Compra tus entradas →</a>
+    <div class="countdown" id="countdown" aria-label="Cuenta regresiva">
+      <div><strong data-d>00</strong><span>días</span></div>
+      <div><strong data-h>00</strong><span>horas</span></div>
+      <div><strong data-m>00</strong><span>min</span></div>
+      <div><strong data-s>00</strong><span>seg</span></div>
+    </div>
+    <div class="tags"><a href="lineup.html">MÚSICA</a><a href="lineup.html">CINE</a><a href="lineup.html">ARTE</a></div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap top">
+    <span class="logo">AURORA</span>
+    <span>26 - 29 de agosto de 2027 · Desierto de Gobi, Mongolia</span>
+    <nav aria-label="Pie de página">
+      <a href="#">Términos y condiciones</a> <!-- TODO -->
+      <a href="#">Política de privacidad</a> <!-- TODO -->
+      <a href="contacto.html">Contacto</a>
+      <a href="festival.html#como-llegar">Cómo llegar</a>
+    </nav>
+  </div>
+  <div class="wrap" style="margin-top:1rem"><span>Desarrollado por Isabella Higuita Álvarez y Valentina Vásquez García</span></div> 
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

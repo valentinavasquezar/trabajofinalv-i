@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Galería · Festival Aurora</title>
+<meta name="description" content="Galería de ediciones anteriores: música, cine y arte.">
+<!-- Fuentes: Cinzel = logo AURORA (cámbiala aquí y en --font-logo del CSS). Cormorant Garamond = títulos. Inter = texto -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="index.html" aria-label="Aurora, inicio">AURORA</a>
+  <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+  <nav class="nav" aria-label="Principal"><a href="index.html">Inicio</a><a href="festival.html">El festival</a><a href="lineup.html">Line-up</a><a href="programa.html">Programa</a><a href="entradas.html">Entradas</a><a href="galeria.html" aria-current="page">Galería</a><a href="contacto.html">Contacto</a></nav>
+</header>
+<main>
+<section class="section t-night">
+  <div class="wrap">
+    <h2>Galería</h2>
+    <div class="filters">
+      <button class="active" data-filter="all">Todos</button><button data-filter="musica">Música</button><button data-filter="cine">Cine</button><button data-filter="arte">Arte</button>
+    </div>
+    <div class="grid"><figure data-cat="musica"><img src="assets/img/musica-1.jpg" alt="Musica: ajusta este texto" loading="lazy"></figure><figure data-cat="cine"><img src="assets/img/desierto de noche.jpg" alt="Cine: ajusta este texto" loading="lazy"></figure><figure data-cat="arte"><img src="assets/img/desierto.png" alt="Arte: ajusta este texto" loading="lazy"></figure><figure data-cat="cine"><img src="assets/img/esfera.png" alt="Cine: ajusta este texto" loading="lazy"></figure><figure data-cat="arte"><img src="assets/img/arte-2.jpg" alt="Arte: ajusta este texto" loading="lazy"></figure><figure data-cat="musica"><img src="assets/img/concierto.png" alt="Musica: ajusta este texto" loading="lazy"></figure></div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap top">
+    <span class="logo">AURORA</span>
+    <span>26 – 29 de agosto de 2027 · Desierto de Gobi, Mongolia</span>
+    <nav aria-label="Pie de página">
+      <a href="#">Términos y condiciones</a> <!-- TODO -->
+      <a href="#">Política de privacidad</a> <!-- TODO -->
+      <a href="contacto.html">Contacto</a>
+      <a href="festival.html#como-llegar">Cómo llegar</a>
+    </nav>
+  </div>
+  <div class="wrap" style="margin-top:1rem"><span>Desarrollado por Isabella Higuita Álvarez y Valentina Vásquez García</span></div> <!-- TODO: marca responsable -->
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

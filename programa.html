@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Programa · Festival Aurora</title>
+<meta name="description" content="Programa de cuatro días: atardecer, noche, madrugada y amanecer.">
+<!-- Fuentes: Cinzel = logo AURORA (cámbiala aquí y en --font-logo del CSS). Cormorant Garamond = títulos. Inter = texto -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>@font-face{font-family:'AuroraLogo';src:url('assets/fonts/aurora-logo.woff2') format('woff2');font-display:swap} :root{--font-logo:'AuroraLogo',Georgia,serif}</style> 
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="index.html" aria-label="Aurora, inicio">AURORA</a>
+  <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+  <nav class="nav" aria-label="Principal"><a href="index.html">Inicio</a><a href="festival.html">El festival</a><a href="lineup.html">Line-up</a><a href="programa.html" aria-current="page">Programa</a><a href="entradas.html">Entradas</a><a href="galeria.html">Galería</a><a href="contacto.html">Contacto</a></nav>
+</header>
+<main>
+<section class="section t-deep">
+  <div class="wrap">
+    <h2>Programa de cuatro días</h2>
+    <div class="days"><a class="card" id="dia-1" href="lineup.html"><div class="pic d1"></div><div class="body"><span class="date">JUE 26 AGO</span><h3>Atardecer</h3><p>Apertura gratuita en Plaza Aurora<br>Jambinai<br>Mdou Moctar</p></div></a><a class="card" id="dia-2" href="lineup.html"><div class="pic d2"></div><div class="body"><span class="date">VIE 27 AGO</span><h3>Noche</h3><p>Cine: Davaa, Apichatpong y Martel<br>The HU<br>Bomba Estéreo</p></div></a><a class="card" id="dia-3" href="lineup.html"><div class="pic d3"></div><div class="body"><span class="date">SÁB 28 AGO</span><h3>Madrugada</h3><p>Cine: Ceylan y Wang Quan’an<br>Khruangbin y Tinariwen<br>Bonobo en La Cúpula</p></div></a><a class="card" id="dia-4" href="lineup.html"><div class="pic d4"></div><div class="body"><span class="date">DOM 29 AGO</span><h3>Amanecer</h3><p>Anoushka Shankar al salir el sol<br>Nils Frahm, Hania Rani y Ólafur Arnalds<br>Arte: teamLab, Eliasson y Turrell</p></div></a></div>
+    <p class="banner red">Música, cine y arte para vivir el desierto en todas sus luces.</p>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap top">
+    <span class="logo">AURORA</span>
+    <span>26 – 29 de agosto de 2027 · Desierto de Gobi, Mongolia</span>
+    <nav aria-label="Pie de página">
+      <a href="#">Términos y condiciones</a> <!-- TODO -->
+      <a href="#">Política de privacidad</a> <!-- TODO -->
+      <a href="contacto.html">Contacto</a>
+      <a href="festival.html#como-llegar">Cómo llegar</a>
+    </nav>
+  </div>
+  <div class="wrap" style="margin-top:1rem"><span>Desarrollado por Isabella Higuita Álvarez y Valentina Vásquez</span></div> <!-- TODO: marca responsable -->
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
